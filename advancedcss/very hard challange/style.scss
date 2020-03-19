@@ -1,0 +1,95 @@
+
+    body {
+        margin: 0 auto;
+        width: 90%;
+        max-width: 1240px;
+        font-family: 'Roboto', sans-serif;
+        background-color: #333;
+    
+    
+    /* Typography */
+    
+    h1 {
+        font-size: 40px;
+        font-weight: 300;
+        text-align: center;
+        color: #FFF;
+        font-style: bold;
+    }
+    
+    h5 {
+        color: #fff;
+        font-size: larger;
+        font-weight: 500;
+        line-height: 1.7em;
+    }
+    p {
+        color: #fff;
+        font-size: large;
+    }
+    /* Product Layout */
+    .products {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .product-card {
+        display: flex;
+        flex-direction: column;
+        padding: 1%;
+        flex: 1 18%; 
+        background-color: #333333;
+    }
+    
+    .product-card img {
+        height: 400px;
+        width: 300px;
+        display: flex;
+        align-content: space-between;
+    }
+    
+    
+    .product-info {
+        text-align: center;
+    }
+
+    .foot {
+        text-align:center;
+        color: #fff;
+        font-size: larger;
+      }
+
+      p::Before{ 
+        content: "Lorem";
+        color: rgb(0, 183, 255);
+        font-weight: bold;
+      }
+}
+    
+
+        
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
