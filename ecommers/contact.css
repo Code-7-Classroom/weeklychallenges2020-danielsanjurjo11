@@ -1,0 +1,126 @@
+body {
+    /*   background-color: rgb(59, 68, 75); */
+      background-color: rgb(145, 163, 176);
+    }
+    
+    a {
+        text-decoration: none;
+        font-size: 25px;
+    }
+    
+    #navbar {
+        overflow: auto;
+    }
+    
+    #navbar h1 {
+      float: left;
+      padding: 15px;
+    }
+    
+    .container {
+        width: 100% !important;
+     }
+
+    .logo {
+      color: rgb(6, 42, 120);
+    }
+    
+    #navbar a {
+        color: #333;
+    }
+    
+    #navbar ul{
+        list-style: none;
+        display: flex;
+        justify-content: flex-end;  
+        padding: 15px;
+    }
+    
+    #navbar ul li {
+        float: left;
+    }
+    
+    #navbar ul li a {
+        display: block;
+        padding: 15px;
+        text-align: center;
+    }
+
+    .btn {
+        display: inline-block;
+        font-size: 18px;
+        color: #fff;
+        background: #333;
+        padding: 13px 20px;
+        border: none;
+        cursor: pointer;
+        border-radius: 1.3em;
+    }
+
+
+/* reach */
+
+#reach {
+    background: rgb(109, 106, 106);
+    padding-bottom: 15px;
+}
+
+#reach h1 {
+    padding-left: 180px;
+    padding-top: 25px;
+    font-size: 40px;
+}
+#reach p {
+    padding-left: 180px;
+    padding-top: 15px;
+    font-size: 35px;
+}
+#reach .form {
+    padding-left: 180px;
+    padding-top: 20px;
+    display: block;
+    width: 100%;
+}
+.form-content{
+    display: block;
+    font-size: 20px;
+}
+.message {
+    display: block;
+    height: 150px;
+}
+
+
+#reach input[type=text], select, textarea{
+    width: 75%;
+  padding: 15px;
+  border: 2px solid currentColor;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 25px;
+  margin-bottom: 52px;
+  resize: vertical;
+}
+
+#reach input[type=submit] {
+    color: white;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 4px;
+  }
+
+    /* Cre */
+  #navbar ul li a:hover,
+  #navbar ul li a.current {
+      background: rgb(6, 42, 120);
+      color: #fff;
+  }
+
+  footer {
+    text-align:center;
+    background-color: rgb(145, 163, 176);
+    height:140px; 
+    padding: 10px;
+    color: #fff;
+    font-size: larger;
+}
