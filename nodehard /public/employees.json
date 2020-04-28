@@ -1,0 +1,72 @@
+{
+    "employees":[
+        {
+            "name":"daniel",
+            "id":1,
+            "salary":600000000,
+            "job":"back end developer"
+        },
+
+        {
+            "name":"cody",
+            "id":2,
+            "salary":4000000,
+            "job":"CEO"
+        },
+
+        {
+            "name":"wilson",
+            "id":3,
+            "salary":900000000,
+            "job":"real estate investor"
+        },
+
+        {
+            "name":"leo",
+            "id":4,
+            "salary":40000000,
+            "job":"back end developer"
+        },
+        {
+            "name":"kyle",
+            "id":5,
+            "salary":400000000,
+            "job":"CEO"
+        },
+
+        {
+            "name":"dj",
+            "id":6,
+            "salary":2000000,
+            "job":"teacher"
+        },
+
+        {
+            "name":"tori",
+            "id":7,
+            "salary":100000000,
+            "job":"vice president"
+        },
+        
+        {
+            "name":"treena",
+            "id":8,
+            "salary":100000000,
+            "job":"CEO"
+        },
+
+        {
+            "name":"reggie",
+            "id":9,
+            "salary":200000000,
+            "job":"IT"
+        },
+
+        {
+            "name":"lucy",
+            "id":10,
+            "salary":100000000,
+            "job":"engineer"
+        }
+    ]
+}
